@@ -2,8 +2,8 @@
  * @Author: zhaowenhao zhaowenhao@riverroad.cn
  * @Date: 2022-06-29 21:34:08
  * @LastEditors: zhaowenhao zhaowenhao@riverroad.cn
- * @LastEditTime: 2022-06-29 23:01:59
- * @FilePath: \front-end-learning\note\DailyLearning.md
+ * @LastEditTime: 2022-06-30 00:01:18
+ * @FilePath: \front-end-study\note\DailyLearning.md
  * @Description:
  *
  * Copyright (c) 2022 by zhaowenhao zhaowenhao@riverroad.cn, All Rights Reserved.
@@ -28,3 +28,4 @@
 ```
 
 LeetCode/数组/1.两数之和
+暴力--耗时五分钟
