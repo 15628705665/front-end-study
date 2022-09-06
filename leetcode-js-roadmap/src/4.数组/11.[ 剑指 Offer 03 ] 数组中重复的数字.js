@@ -4,7 +4,21 @@
  */
 
 // * 思路：
-
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findRepeatNumber = function (nums) {
+    let res = null
+    nums.some((item, index) => {
+        let loc = nums.indexOf(item)
+        if (loc != -1 && loc != index) {
+            res = item
+            return true
+        }
+    })
+    return res
+};
 
 
 // 测试用例

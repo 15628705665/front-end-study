@@ -4,7 +4,19 @@
  */
 
 // * 思路：
-
+/**
+ * @param {number[]} candies
+ * @param {number} extraCandies
+ * @return {boolean[]}
+ */
+var kidsWithCandies = function (candies, extraCandies) {
+    let max = Math.max(...candies)
+    let res = []
+    candies.some((item) => {
+        item + extraCandies >= max ? res.push(true) : res.push(false)
+    })
+    return res
+};
 
 
 // 测试用例

@@ -5,7 +5,10 @@
 
 // * 思路：
 
-
+var containsDuplicate = function (nums) {
+    let s2 = Array.from(new Set(nums))
+    return nums.length !== s2.length
+};
 
 // 测试用例
 let test = ''

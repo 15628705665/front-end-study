@@ -5,7 +5,19 @@
 
 // * 思路：
 
-
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var smallerNumbersThanCurrent = function (nums) {
+    let originalArray = [...nums]
+    nums.sort((a, b) => a - b)
+    let res = []
+    originalArray.map((item, index) => {
+        res[index] = nums.indexOf(item)
+    })
+    return res
+};
 
 // 测试用例
 let test = ''
